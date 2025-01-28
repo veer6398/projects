@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url(background.jpg);
+}
+
+.keys{
+    height: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 300px 200px;
+}
+.key{
+    height: 80px;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    font-size: 40px;
+    border: solid black 5px;
+    color: azure;
+    transition: all 0.07s;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: goldenrod;
+    text-shadow: 0 0 5px goldenrod;
+}
+
+p{
+    font-size: medium;
+    padding-top: 10px;
+    color: goldenrod; 
+}
