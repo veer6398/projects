@@ -25,6 +25,7 @@
     border-radius: 50%;
     font-size: 1.4rem;
     border: none;
+    display: hidden;
 }
 
 body{
